@@ -1,0 +1,16 @@
+nav {
+	grid-area: nav;
+	padding-left: 80%; 
+}
+
+
+#mainBody a {
+	border: 3px solid black;
+}
+
+footer {
+border: 3px solid black;
+	margin-top: 50%;
+	
+
+}
