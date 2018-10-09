@@ -4,25 +4,45 @@
 	border: 3px solid black; 
 }
 nav {
-	padding-left: 70%;
+	padding-left: 65%;
 	padding-top: 30px;
 	font-size: 20px;
+	
 }
 
+nav a {
+	padding-right: 40px;
+}
+
+/*main h1 {
+	position: absolute;
+	top: 50%;
+	left: 50%
+}*/
+
 .mainWrapper {
-	display: grid;
+	/*display: grid;
 	grid-template-rows: 1fr;
 	grid-template-columns: 1fr 1fr;
-	border: 3px solid black;
+	border: 3px solid black;*/
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	text-align: center;
 }
 
 .mainWrapper a {
 	border: 3px solid black;
+	padding: 5px 5px 5px 5px;
 }
 
 footer {
-border: 3px solid black;
-	margin-top: 50%;
+	border: 3px solid black;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
 	
 
 }
