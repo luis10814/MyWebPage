@@ -1,12 +1,20 @@
+body{
+	background-image: url(images/background-min.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+
+}
+
 .navWrapper {
 	display: grid;
 	grid-template-columns: 1fr 2fr;
-	border: 3px solid black; 
+	 
 }
 nav {
-	padding-left: 65%;
+	padding-left: 45%;
 	padding-top: 30px;
-	font-size: 20px;
+	font-size: 30px;
 	
 }
 
@@ -14,35 +22,86 @@ nav a {
 	padding-right: 40px;
 }
 
-/*main h1 {
-	position: absolute;
-	top: 50%;
-	left: 50%
-}*/
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:visited {
+	color: white;
+}
 
 .mainWrapper {
-	/*display: grid;
-	grid-template-rows: 1fr;
-	grid-template-columns: 1fr 1fr;
-	border: 3px solid black;*/
 	position: absolute;
-	top: 50%;
-	left: 50%;
+	top: 30%;
+	left: 40%;
 	text-align: center;
+	font-size: 40px;
+	color: white;
 }
 
 .mainWrapper a {
-	border: 3px solid black;
+	border: 3px solid white;
 	padding: 5px 5px 5px 5px;
 }
 
+.resourceWrapper {
+	color:white;
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	text-align: center;
+	font-size: 40px;
+}
+
+.resourceWrapper a {
+	border: 3px solid white;
+	padding: 5px 5px 5px 5px;
+	color: white;
+}
+
+.contactWrapper {
+	color:white;
+	position: absolute;
+	top: 40%;
+	left: 40%;
+	text-align: center;
+	font-size: 40px;
+}
+
+.contactWrapper a {
+	color: white;
+}
+
+.aboutWrapper p {
+	color: white;
+	position: absolute;
+	top: 40%;
+	left: 40%;
+	font-size: 25px;
+	text-align: center;
+	
+}
+
+.me {
+	position: absolute;
+	left: 80%;
+	top: 20%;
+}
+
 footer {
-	border: 3px solid black;
 	position: fixed;
 	left: 0;
 	bottom: 0;
 	width: 100%;
 	text-align: center;
-	
+}
 
+footer a {
+	padding-right: 40px;
+}
+
+footer p {
+	padding-left: 90%;
+	color: white;
 }
